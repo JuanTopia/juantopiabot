@@ -11,5 +11,11 @@ client.on('message', message => {
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
+client.on('message', message => {
+    if (message.content === '!youtube') {
+    	message.reply('JuanHax');
+  	}
+});
+
+//LMAO CANT STEAL?
 client.login(process.env.BOT_TOKEN);
