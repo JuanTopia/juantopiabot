@@ -10,6 +10,5 @@ client.on('message', message => {
     	message.reply('pong');
   	}
 });
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN));
+//Dont Hack Pls
+client.login(process.env.Mzk0MDEyMDc4NTU1MjY3MDg0.DR-Rlg.R9SzdqTskfrhsSefmQeeGynBA74));
