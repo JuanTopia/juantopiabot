@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-    console.log('I am ready!');
+    console.log('Bot Its Online!');
 });
 
 client.on('message', message => {
@@ -11,4 +11,4 @@ client.on('message', message => {
   	}
 });
 //Dont Hack Pls
-client.login(process.env.Mzk0MDEyMDc4NTU1MjY3MDg0.DR-Rlg.R9SzdqTskfrhsSefmQeeGynBA74));
+client.login(process.env.Mzk0MDEyMDc4NTU1MjY3MDg0.DR-Rlg.R9SzdqTskfrhsSefmQeeGynBA74);
