@@ -17,5 +17,29 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '!commands') {
+    	message.reply('!youtube, !download , ComingSoon');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!comingsoon') {
+    	message.reply('JuanHax');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!comingsoon2') {
+    	message.reply('JuanHax');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '!comingsoon2') {
+    	message.reply('JuanHax');
+  	}
+});
+
 //LMAO CANT STEAL?
 client.login(process.env.BOT_TOKEN);
